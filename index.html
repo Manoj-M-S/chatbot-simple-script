@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChatBot Demo</title>
+
+    <!-- ChatBot Configuration -->
+    <meta name="chatbot-secret" content="client-secret-id" />
+    <script>
+      window.ChatBotConfig = {
+        apiKey: "client-api-key",
+        theme: "dark",
+        style:"default",
+        position: "right",
+      };
+    </script>
+
+    <!-- CHATBOT CDN RESOURCES -->
+    <link rel="stylesheet" href="chatbot.css" />
+    <script src="chatbot.js"></script>
+  </head>
+  <body>
+    <h1>Client Website</h1>
+    <p>Test the chatbot in the bottom-right corner!</p>
+  </body>
+</html>
