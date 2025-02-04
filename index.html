@@ -4,15 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ChatBot Demo</title>
-
+    <!-- Marked.js -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    
     <!-- ChatBot Configuration -->
-    <meta name="chatbot-secret" content="client-secret-id" />
     <script>
       window.ChatBotConfig = {
-        apiKey: "client-api-key",
-        theme: "dark",
-        style:"default",
-        position: "right",
+        apiKey: "clientApiKey",
+        resourceId: "clientResourceId",
+        themeColor: "#A6192E",
+        logoURL: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPO6sRop1a2UQMvZPmDxvwoHpeehVO2hY-kq_D5PMiC3FsbnP_-fHzhN0PsKniyEAUwVw&usqp=CAU",
+        chatHeaderText: "Chat Assistant",
+        inputPlaceholder: "Type your message...",
+        buttonText: "Send",
+        botWelcomeText: "Hello! How can I help you today?"
       };
     </script>
 
@@ -21,7 +26,7 @@
     <script src="chatbot.js"></script>
   </head>
   <body>
-    <h1>Manoj website</h1>
+    <h1>Client Website</h1>
     <p>Test the chatbot in the bottom-right corner!</p>
   </body>
 </html>
