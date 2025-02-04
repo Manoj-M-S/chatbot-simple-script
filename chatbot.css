@@ -22,6 +22,31 @@
   overflow: hidden;
 }
 
+.chatbot-container h1,
+.chatbot-container h2,
+.chatbot-container h3,
+.chatbot-container h4,
+.chatbot-container h5,
+.chatbot-container h6 {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  line-height: 1.4 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #333333 !important;
+}
+
+.chatbot-container p {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-size: 14px !important;
+  font-weight: normal !important;
+  line-height: 1.5 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #666666 !important;
+}
+
 .chatbot-header {
   padding: 16px;
   background: var(--chatbot-theme-color);
