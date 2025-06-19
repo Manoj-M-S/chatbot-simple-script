@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", () => {
       try {
         // Make the request to BE. Use the baseURL provided in the configuration if available.
         const response = await fetch(
-          `http://52.221.197.158:8282/v1/infer`,
+          `https://api.aeldris.ai/v1/infer`,
           {
             method: "POST",
             headers: {
